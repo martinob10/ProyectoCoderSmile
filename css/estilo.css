@@ -1,0 +1,174 @@
+        /*Reseteo*/
+        
+        ul li {
+            list-style: none;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /*Importar Fuente Local*/
+        
+        @font-face {
+            font-family: FuenteGhotam;
+            src: url(../Gotham-Font/Gotham-Bold.otf);
+        }
+        /*Variables*/
+        
+         :root {
+            --color-Amarillo-Claro: #FFCA28;
+            --color-Amarillo-Obscuro: #E6A81F;
+            --color-Naranja-Claro: #f3cd8e;
+            --color-Negro: #000000;
+            --color-Marron: #653210;
+            --color-Marron-Claro: #AB8C77;
+            --color-Fondo: #FAFAFA;
+            --Funete-Poppins: 'Poppins', sans-serif;
+            --Fuente-Gotham: FuenteGhotam;
+        }
+        
+        body {
+            color: var(--color-Fondo);
+            font-family: var(--Funete-Poppins);
+        }
+        
+        .logo {
+            background-color: var(--color-Amarillo-Obscuro);
+            text-align: center;
+            padding: 2px;
+        }
+        
+        .logo img {
+            width: 7rem;
+        }
+        
+        .menu {
+            background-color: var(--color-Naranja-Claro);
+        }
+        
+        .menu ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-bottom: 0;
+        }
+        
+        .menu ul li {
+            padding: 10px;
+        }
+        
+        .menu ul li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: var(--color-Marron);
+        }
+        /*portada
+    
+    .portada {
+        background-image: url(../img/banner2.png);
+        height: 33rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -16px;
+    }
+    /*Closet*/
+        
+        .closet {
+            color: var(--color-Negro);
+            text-align: center;
+            padding: 4rem;
+            font-family: var(--Fuente-Gotham);
+        }
+        
+        .closet h2 {
+            font-size: 5rem;
+            text-transform: uppercase;
+            letter-spacing: .1rem;
+        }
+        
+        .closet h3 {
+            font-size: 1rem;
+        }
+        
+        .imagenes-closet {
+            display: flex;
+            flex-direction: row;
+            padding: 1rem;
+            color: #000000;
+        }
+        /*prueba de imagenes*/
+        
+        .contenedor0 {
+            background-image: url(../img/Opera.png);
+            width: 270px;
+        }
+        
+        .contenedor1 {
+            background-image: url(../img/cartera.png);
+            width: 270px;
+        }
+        
+        .contenedor2 {
+            background-image: url(../img/falda.png);
+            width: 270px;
+        }
+        
+        .contenedor3 {
+            background-image: url(../img/blusa.png);
+            width: 270px;
+        }
+        
+        .contenedor4 {
+            background-image: url(../img/bikini.png);
+            width: 270px;
+        }
+        
+        .contenedor5 {
+            background-image: url(../img/vestido.png);
+            width: 270px;
+        }
+        
+        .top {
+            opacity: 0;
+        }
+        
+        .top:hover {
+            opacity: 1;
+            transition: 1s;
+        }
+        
+        .redes img {
+            width: 17rem;
+        }
+        /*footer*/
+        
+        footer {
+            background-color: var(--color-Amarillo-Obscuro);
+            text-transform: none;
+            color: var(--color-Marron);
+            font-family: var(--Funete-Poppins)
+        }
+        
+        footer .footer {
+            background-color: var(--color-Amarillo-Obscuro);
+            text-transform: none;
+        }
+        
+        .footer ul {
+            flex-direction: column;
+        }
+        
+        .footer ul li a {
+            text-transform: none;
+        }
+        
+        .iconos img {
+            width: 2rem;
+        }
+        /*Sobre smile*/
+        
+        .sobre h2 {
+            text-transform: none;
+        }
